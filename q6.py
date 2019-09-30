@@ -16,6 +16,10 @@ class ClubMember:
         self.name = name
         self.role = role
 
+    def __str__(self):
+        return (f'\n {self.role}'
+                f'\n {self.name}')
+
 # Create ClubMember instances for the following people:
 member1 = ClubMember("Alfred", "Club President")
 member2 = ClubMember("Troy", "Club Vice President")
@@ -28,10 +32,12 @@ club_members = []
 # Write the code needed to loop through the club member list and print
 # the current number of members in the list, then the member’s name and
 # club role, one per line using f strings.
-for x in member1:
-    x.append(club_members)
+# for x in member1:
+#     x.append(club_members)
 
-    print(x.name)
+print(member1)
+print(member2)
+print(member3)
 
 
 
