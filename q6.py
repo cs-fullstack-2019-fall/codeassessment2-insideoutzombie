@@ -17,8 +17,7 @@ class ClubMember:
         self.role = role
 
     def __str__(self):
-        return (f'\n {self.role}'
-                f'\n {self.name}')
+        return (f'\n {self.role}: {self.name}')
 
 # Create ClubMember instances for the following people:
 member1 = ClubMember("Alfred", "Club President")
