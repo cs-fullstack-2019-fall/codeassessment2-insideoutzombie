@@ -25,3 +25,11 @@ def chk_strings():
 # DO NOT print the result in the function, print the result using the return
 # value provided by the function.
 print(chk_strings())
+
+
+
+
+
+
+
+# TODO: figure out how to take str input and return only the number

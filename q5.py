@@ -37,4 +37,5 @@ print(team1)
 
 
 
+
 # TODO: figure out how to call function from outside of class
